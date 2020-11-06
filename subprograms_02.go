@@ -12,14 +12,14 @@ func sum(numbers ...int) int{
 
 func main(){
 	//var inhaArray [7] string //array
-//	var inhaSlice [] string //slice
-//	inhaSlice = make([]string, 7)
-	inhaSlice := []string{"i","n","h","a" }
-        nums := []int{1, 2, 3, 4, 5}
-//	inhaSlice[0] = "i"
-//	inhaSlice[1] = "n"
-//	inhaSlice[2] = "h"
-//	inhaSlice[3] = "a"
+	var inhaSlice [] string //slice
+	inhaSlice = make([]string, 7)
+//	inhaSlice := []string{"i","n","h","a" }
+        nums := []int{1, 2, -3, 4, 5}
+	inhaSlice[0] = "i"
+	inhaSlice[1] = "n"
+	inhaSlice[2] = "h"
+	inhaSlice[3] = "a"
 
 	for i := 0 ; i < len(inhaSlice); i++ {
 		fmt.Println(inhaSlice[i])
